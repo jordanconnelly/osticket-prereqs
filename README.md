@@ -31,20 +31,29 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/ocnylGU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a virtual machine (VM) that uses Windows 10 OS. Install IIS by right-clicking on the start button, click on "run" and type in "control panel". Select program and features. Select "windows features". Install and enable IIS management console in web management tools. Also, enable CGI and all of Common HTTP Features boxes (located in: world wide web services > application development features.) You can confirm everything was enabled correctly by visiting 127.0.0.1 & making sure it will load the Windows IIS homepage. Install PHP manager. Install rewrite module.
+Create a virtual machine (VM) that uses Windows 10 OS. 
+  <p>
+  <img src="https://imgur.com/7Wu8CcZ.png" height="80%" width="80%"/>  
+    <p>
+  Install IIS by right-clicking on the start button, click on "run" and type in "control panel". Select program and features. Select "windows features". Install and enable IIS management console in web management tools. Also, enable CGI and all of Common HTTP Features boxes (located in: world wide web services > application development features.) You can confirm everything was enabled correctly by visiting 127.0.0.1 & making sure it will load the Windows IIS homepage. Install PHP manager. Install rewrite module.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/Q3lFtDX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/8jK35Gy.png" height="80%" width="80%"/>
+<img src="https://imgur.com/FekJ0IP.png" height="80%" width="80%"/>
 </p>
 <p>
-Create a folder in C:\ called "PHP". Install PHP and unzip contents to PHP folder you created. Install VC redist.x86.exe. Install MySqL (typical setup). Launch configuration wizard, select standard and create a name plus password. FYI- You will need to remember them.
+Create a folder in C:\ called "PHP". Install PHP and unzip contents to PHP folder you created. Install VC redist.x86.exe.
+</p>  
+<img src="https://imgur.com/9PZfGNm.png" height="80%" width="80%"/>
+<img src="https://imgur.com/4gEt1cn.png" height="80%" width="80%"/>
+Install MySqL (typical setup). Launch configuration wizard, select standard and create a name plus password. FYI- You will need to remember them.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/hny3ScG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/m0jPKFD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open IIS as administrator. Register PHP inside of IIS. Stop and start server. Install osTicket. Extract "uploads" folder to C:\inetpub\wwwroot. Rename the folder "osTicket". Reload IIS (Stop and start server). Go to: sites > default > osTicket; on the far right of the window, click on "Browse*:80". Go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename "ost-sampleconfig.php" to "ost-config.php". Next, you will need to enable PHP extensions before continuing with osTicket. Go back to IIS and go to "sites > default > osTicket. Double click on PHP manager and then click on "Enable or disable an extension". Assign file permissions to everyone (Disable inheritance > Remove All, New Permissions > Everyone > All). Enable "php_imap.dll", "php_intl.dll" and "php_opcache.dll". If you refresh the browser, osTicket's PHP extension changes will be shown.
