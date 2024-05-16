@@ -77,10 +77,21 @@ If you refresh the browser, osTicket's PHP extension changes will be shown.
 <p>
 <img src="https://imgur.com/yHPp6mT.png" height="80%" width="80%"/>
 </p>
+
 <p>
 Start filling out the form in osTicket. Before you complete the form, you'll need a database client. 
 <p>
-
-Install HeidiSQL. Open HeidiSQL and create a new database using the name and password you created for MySQL. Connect to session and create a database called "osTicket". Now that you've created a database you can now finish filling out the form. Use your MySQL name and password on the form. Click install now. Browse to your help desk login page: http://localhost/osTicket/scp/login.php. There's a little bit of cleanup necessary before you proceed. Delete: C:\inetpub\wwwroot\osTicket\setup. Set permissions to “Read, Read and execute" at : C:\inetpub\wwwroot\osTicket\include\ost-config.php. Confirm you executed the steps correctly by going to http://localhost/osTicket/scp/login.php and sign in using the Admin account info.
+<img src="https://imgur.com/mAsXixZ.png" height="80%" width="40%"/>
+<img src="https://imgur.com/tOMABDw.png" height="80%" width="40%"/>
+<p>
+Install HeidiSQL. Open HeidiSQL and create a new database using the name and password you created for MySQL. Connect to session and create a database called "osTicket". Now that you've created a database you can now finish filling out the form. Use your MySQL name and password on the form. Click install now.
+<p>
+<img src="https://imgur.com/CdsyNm7.png" height="80%" width="80%"/>
+<p>
+To confirm steps were executed correctly, browse to your help desk login page: http://localhost/osTicket/scp/login.php. 
+<p>
+<img src="https://imgur.com/3vcjA66.png" height="80%" width="40%"/>
+<p>
+There's a little bit of cleanup necessary before you proceed. Delete: C:\inetpub\wwwroot\osTicket\setup. Set permissions to “Read, Read and execute" at : C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 </p>
 <br />
