@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/fFI8SvZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a virtual machine (VM) that uses Windows 10 OS. Install IIS by right-clicking on the start button, click on "run" and type in "control panel". Select program and features. Select "windows features". Install and enable IIS management console in web management tools. Also, enable CGI and all of Common HTTP Features boxes (located in: world wide web services > application development features.) Install PHP manager. Install rewrite module.
+Create a virtual machine (VM) that uses Windows 10 OS. Install IIS by right-clicking on the start button, click on "run" and type in "control panel". Select program and features. Select "windows features". Install and enable IIS management console in web management tools. Also, enable CGI and all of Common HTTP Features boxes (located in: world wide web services > application development features.) You can confirm everything was enabled correctly by visiting 127.0.0.1 & making sure it will load the Windows IIS homepage. Install PHP manager. Install rewrite module.
 </p>
 <br />
 
