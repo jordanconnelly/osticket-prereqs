@@ -44,11 +44,11 @@ Create a virtual machine (VM) that uses Windows 10 OS.
 <img src="https://imgur.com/FekJ0IP.png" height="80%" width="40%"/>
 </p>
 <p>
-Create a folder in C:\ called "PHP". Install PHP and unzip contents to PHP folder you created. Install VC redist.x86.exe.
+Create a folder in C:\ called "PHP". Install the PHP zip folder and unzip contents to PHP folder you created. Install VC redist.x86.exe.
 </p>  
 <img src="https://imgur.com/9PZfGNm.png" height="50%" width="40%"/><img src="https://imgur.com/4gEt1cn.png" height="50%" width="40%"/>
 
-Install MySqL (typical setup). Launch configuration wizard, select standard and create a name plus password. FYI- You will need to remember them.
+Install MySqL (typical setup). Launch configuration wizard, select standard and create a root password. FYI- You will need to remember this.
 </p>
 <p>
 <img src="https://imgur.com/m0jPKFD.png" height="80%" width="80%"/>
