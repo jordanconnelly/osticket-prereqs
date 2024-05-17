@@ -84,7 +84,7 @@ Install HeidiSQL. Open HeidiSQL and create a new database using the name and pas
 <img src="https://imgur.com/tOMABDw.png" height="80%" width="40%"/>
 <p>
 </p>
-To confirm steps were executed correctly, browse to your help desk login page: http://localhost/osTicket/scp/login.php. 
+To confirm steps were executed correctly, browse to your help desk login page (localhost/osTicket/scp/login.php). 
 <p>
 <img src="https://imgur.com/CdsyNm7.png" height="80%" width="80%"/>
 <p>
