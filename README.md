@@ -60,13 +60,13 @@ Open IIS as administrator. Register PHP inside of IIS. Stop and start server.
 <p>
 Install osTicket. Extract "uploads" folder to C:\inetpub\wwwroot. Rename the folder "osTicket". Reload IIS (Stop and start server). Go to: sites > default > osTicket; on the far right of the window, click on "Browse*:80". Go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename "ost-sampleconfig.php" to "ost-config.php".
 <p>
-<img src="https://imgur.com/SY9q9k8.png" height="80%" width="80%"/>
-
-Next, you will need to enable PHP extensions before continuing with osTicket. Go back to IIS and go to "sites > default > osTicket. Double click on PHP manager and then click on "Enable or disable an extension". Assign file permissions to everyone (Disable inheritance > Remove All, New Permissions > Everyone > All).
-<p>
 <img src="https://imgur.com/jMUe9QR.png" height="80%" width="80%"/>
+
+Next, you will need to enable PHP extensions before continuing with osTicket. Go back to IIS and go to "sites > default > osTicket. Double click on PHP manager and then click on "Enable or disable an extension". Enable "php_imap.dll", "php_intl.dll" and "php_opcache.dll".
 <p>
-Enable "php_imap.dll", "php_intl.dll" and "php_opcache.dll". 
+<img src="https://imgur.com/SY9q9k8.png" height="80%" width="80%"/>
+<p>
+ Assign file permissions to everyone (Disable inheritance > Remove All, New Permissions > Everyone > All). 
 <p>
 <img src="https://imgur.com/a7wRUes.png" height="80%" width="80%"/>
 <p>
